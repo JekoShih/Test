@@ -1,0 +1,140 @@
+<resources>
+    <string-array name="top_view"><!--定義上方工具列的背景--> 
+　　        <item>background-color:5899d3;</item><!--88,153,211 5899d3--> 
+　　    </string-array>
+
+    <string-array name="top"><!--定義上方工具列有哪些物件--> 
+　　      <item>button1</item>    
+　　      <item>button2</item>
+	 <item>topic3</item>
+　　    </string-array>
+
+			   <string-array name="button1"><!--定義上方工具列物件的位置及功能-->
+			     <item>margin:0 0 0 0;height:96px;width:124px;background-image:url(home.png);</item>
+			　　     <item>1</item><!-- 功能   0=工具項和登出   1=首頁  -->
+				 <item>button</item><!-- 類型 -->
+			　　    </string-array>
+			
+			   <string-array name="button2">
+			     <item>margin:1 0 91 80;height:8;width:20;background-image:url(login.png);</item>
+				 <item>0</item>
+				 <item>button</item>
+			　　    </string-array>
+						<string-array name="function_box"><!-- 定義工具項中的物件 -->
+						 <item>logout.png,logout</item><!-- 按鈕圖示，事件 -->
+						 <item>map1.png,map</item>
+						 <item>map1.png,led</item>
+					　　    </string-array>
+						 
+			    <string-array name="topic3">
+			     <item>margin:0 20 0 20;height:10;width:100;background-color:0000ff;</item>
+			　　        <item></item><!-- 功能 -->
+				 <item>topic</item><!-- 類型 -->
+			　　    </string-array>
+
+      <!-- 底部按鈕 -->
+     <string-array name="bottom_button"><!-- 定義下方工具列 -->
+      <item>bottom_background-color:5899d3;</item><!-- 定義下方工具列背景 -->
+　　      <item>bottom_button1</item><!-- 定義工具列按鈕跟圖示  -->
+　　      <item>bottom_button2</item><!-- 圖示名稱必須為menuX_1.png -->
+	 <item>bottom_button3</item><!-- menuX_1.png=未點選的圖示 -->
+	 <item>bottom_button4</item><!-- menuX_2.png=點選的圖示 -->
+	 <item>bottom_button5</item>
+　　    </string-array>
+	 
+     
+	      <!-- button1 --> 
+	    <string-array name="bottom_button1"><!-- 定義button1有哪幾頁 -->
+	　　        <item>button1_page1</item>
+	　　        <item>button1_page2</item>
+		  <item>button1_page3</item>
+	　　    </string-array>
+	      
+			    <string-array name="button1_page1">
+			　　        <item>true</item><!-- true=online false=offline -->
+			　　        <item><![CDATA[http://8bon.com/furening]]></item><!-- url (網址或SD卡中的檔案) -->
+				  <item>true</item><!-- 是否支援縮放 -->
+			　　    </string-array>
+			    <string-array name="button1_page2">
+			　　        <item>false</item>
+			　　        <item>5.html/</item>
+				  <item>true</item>
+			　　    </string-array>
+			    <string-array name="button1_page3">
+			　　        <item>false</item>
+			　　        <item>upload.html</item>
+				<item>true</item>
+			　　    </string-array>
+    
+	    <!-- button2 --> 
+	    <string-array name="bottom_button2">
+	　　        <item>button2_page1</item>
+	　　        <item>button2_page2</item>
+		 <item>button2_page3</item>
+	　　    </string-array>
+      
+			    <string-array name="button2_page1">
+			　　        <item>true</item>
+			　　        <item>http://www.google.com/</item>
+					<item>false</item>
+			　　    </string-array>
+			    <string-array name="button2_page2">
+			　　        <item>true</item>
+			　　        <item>http://tw.yahoo.com/</item>
+				<item>false</item>
+			　　    </string-array>
+			    <string-array name="button2_page3">
+			　　        <item>false</item>
+			　　        <item>5.html</item>
+				<item>true</item>
+			　　    </string-array>
+    
+	    <!-- button3 --> 
+	    <string-array name="bottom_button3">
+	　　        <item>button3_page1</item>
+	　　        <item>button3_page2</item>
+	　　    </string-array>
+      
+			    <string-array name="button3_page1">
+			　　        <item>true</item>
+			　　        <item>http://www.gamer.com.tw/</item>
+				  <item>true</item><!-- 是否支援縮放 -->
+			　　   </string-array>
+			    <string-array name="button3_page2">
+			　　        <item>true</item>
+			　　        <item>http://tw.yahoo.com/</item>
+				   <item>true</item>
+			　　    </string-array>
+
+	    <!-- button4 --> 
+	    <string-array name="bottom_button4">
+	　　        <item>button4_page1</item>
+	　　    </string-array>
+      
+			    <string-array name="button4_page1">
+			　　        <item>false</item>
+			　　        <item>1.html</item>
+				  <item>true</item>
+			　　    </string-array>
+
+	        <!-- button5 --> 
+	    <string-array name="bottom_button5">
+	　　        <item>button5_page1</item>
+	　　        <item>button5_page2</item>
+	　　    </string-array>
+      
+			    <string-array name="button5_page1">
+			　　        <item>true</item>
+			　　        <item>http://www.gamer.com.tw/</item>
+				  <item>true</item>
+			　　  </string-array>
+			    <string-array name="button5_page2">
+			　　        <item>false</item>
+			　　        <item>5.html</item>
+				  <item>true</item>
+			　　    </string-array>
+		<string-array name="pages_place">
+	　　        <item></item><!-- 定義水平,參數:0=right,1=left,2=center-->
+		  <item></item><!-- 定義垂直,參數:0=top,1=bottom-->
+	　　    </string-array>
+</resources>	
